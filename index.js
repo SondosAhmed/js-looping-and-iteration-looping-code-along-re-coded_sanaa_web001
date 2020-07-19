@@ -5,7 +5,7 @@ const event = "birthday";
 
 function writeCards(arr, event) {
     for (let i = 0; i < arr.length; i++)
-        console.log(`Thank you, ${arr[i]}, for the wonderful ${event} gift!`);
+        return`Thank you, ${arr[i]}, for the wonderful ${event} gift!`;
 }
 writeCards(arr, event);
 
