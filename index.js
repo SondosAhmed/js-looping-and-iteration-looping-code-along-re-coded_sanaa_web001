@@ -6,7 +6,7 @@ let s=[];
 function writeCards(arr, event) {
     for (let i = 0; i < arr.length; i++)
         s[i]=`Thank you, ${arr[i]}, for the wonderful ${event} gift!`;
-        returns[i];
+        return s[i];
 }
 writeCards(arr, event);
 
